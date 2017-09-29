@@ -1,4 +1,4 @@
-select 
+SELECT 
 Customer.CustID as "Customer ID",
 Customer.Name as "Customer",
 Customer.Address1 as "Address 1",
