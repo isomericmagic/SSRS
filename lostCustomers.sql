@@ -1,5 +1,5 @@
 select 
-Customer.CustID,
+Customer.CustID as "Customer ID",
 Customer.Name as "Customer",
 Customer.Address1 as "Address 1",
 Customer.Address2 as "Address 2",
@@ -27,5 +27,5 @@ LEFT OUTER JOIN Erp.SalesRep ON
 Customer.Company = SalesRep.Company
 AND
 Customer.SalesRepCode = SalesRep.SalesRepCode
-WHERE InvcHead.InvoiceDate < '1/1/2017';
+--WHERE InvcHead.InvoiceDate < '1/1/2017';
 ORDER BY InvcHead.InvoiceDate
