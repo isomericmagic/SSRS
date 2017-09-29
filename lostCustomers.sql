@@ -27,5 +27,5 @@ LEFT OUTER JOIN Erp.SalesRep ON
 Customer.Company = SalesRep.Company
 AND
 Customer.SalesRepCode = SalesRep.SalesRepCode
---WHERE InvcHead.InvoiceDate < '1/1/2017';
-ORDER BY InvcHead.InvoiceDate
+--WHERE InvcHead.InvoiceDate < '1/1/2017'
+ORDER BY InvcHead.InvoiceDate;
